@@ -1,0 +1,19 @@
+    <form action="" align="center">
+        <h2>Contact Us</h2>
+        <label for="type">Type:</label>
+        <select name="" id="type">
+            <option value="">General</option>
+            <option value="">Payment Issue</option>
+            <option value="">Other</option>
+        </select> <br><br>
+        <label for="name">Name: </label>
+        <input type="text" id="name"><br><br>
+        <label for="email">Email: </label>
+        <input type="text" id="email"><br><br>
+        <label for="message">Message: </label><br>
+        <textarea name="" id="message" cols="30" rows="10" placeholder="Write your message here"></textarea><br>
+        <input type="button" value="Send">
+        <input type="button" value="Reset">
+
+
+    </form>
